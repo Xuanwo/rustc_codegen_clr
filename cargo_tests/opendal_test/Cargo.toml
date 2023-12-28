@@ -1,0 +1,14 @@
+[package]
+name = "opendal_test"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+opendal = "*"
+
+[build]
+target = "x86_64-unknown-linux-gnu"
+[unstable]
+build-std = ["core","alloc","std","panic_abort"]

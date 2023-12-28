@@ -601,6 +601,7 @@ cargo_test_ignored! {build_std}
 cargo_test! {benchmarks}
 cargo_test! {glam_test}
 cargo_test! {fastrand_test}
+cargo_test! {opendal_test}
 use lazy_static::*;
 lazy_static! {
     static ref RUNTIME_CONFIG: String = {
